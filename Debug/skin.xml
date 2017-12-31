@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="840 600" caption="0,0,0,90">
+	<Font id="0" name="微软雅黑" size="15" bold="false" />
+	<Font id="1" name="微软雅黑" size="13" bold="false" />
+	<Font id="2" name="微软雅黑" size="10" bold="false" />
+	<VerticalLayout bkcolor="#FFFFFFFF" bordercolor="#FF768D9B" bordersize="1" insert="1,0,1,0">
+		
+		<VerticalLayout height="116" bkcolor="#FE354382" bkcolor2="#EF6F6EBA">
+		
+			<HorizontalLayout height="24" >
+				<HorizontalLayout>
+					<Text text="CoffaceTool" pos="15, 5, 200, 24" float="true" textcolor="#FFFFFFFF" font="0"/>
+				</HorizontalLayout>
+				
+				<HorizontalLayout width="56">
+					<Button name="minbtn" maxwidth="28" maxheight="20" normalimage="file='skins\system_button_min.png' source='0,0,28,20'" hotimage="file='skins\system_button_min.png' source='28,0,56,20'" pushedimage="skins\system_button_min.png' source='56,0,84,20'" />
+					<Button name="closebtn" maxwidth="28" maxheight="20" normalimage="file='skins\system_button_close.png' source='0,0,28,20'" hotimage="file='skins\system_button_close.png' source='28,0,56,20'" pushedimage="file='skins\system_button_close.png' source='56,0,84,20'"  />
+				</HorizontalLayout>
+		
+			</HorizontalLayout>
+			
+			<HorizontalLayout height="92">
+				<HorizontalLayout>
+					<Option pos="30, 20, 102, 92" float="true" align="left"  text="刷鸡" name="main_option_flush" textcolor="#FFFFFFFF" font="1" textpadding="20,35,20,2" foreimage="file='skins\recovery.png' dest='20,0,52,32'" normalimage="skins\option_normal.png" hotimage="skins\option_hover.png" pushedimage="skins\option_hover.png" selectedimage="skins\option_hover.png" group="quickbar" selected="true"/>
+					<Option pos="102, 20, 174, 92" float="true" align="left" text="工具" name="main_option_tools" textcolor="#FFFFFFFF" font="1" textpadding="20,35,20,2" foreimage="file='skins\tools.png' dest='20,0,52,32'" normalimage="skins\option_normal.png" hotimage="skins\option_hover.png" pushedimage="skins\option_hover.png" selectedimage="skins\option_hover.png" group="quickbar"/>
+					<Option pos="174, 20, 246, 92" float="true" align="left" text="捐赠" name="main_option_money" textcolor="#FFFFFFFF" font="1" textpadding="20,35,20,2" foreimage="file='skins\money.png' dest='20,0,52,32'" normalimage="skins\option_normal.png" hotimage="skins\option_hover.png" pushedimage="skins\option_hover.png" selectedimage="skins\option_hover.png" group="quickbar"/>
+					<Option pos="246, 20, 318, 92" float="true" align="left" text="关于" name="main_option_about" textcolor="#FFFFFFFF" font="1" textpadding="20,35,20,2" foreimage="file='skins\about.png' dest='20,0,52,32'" normalimage="skins\option_normal.png" hotimage="skins\option_hover.png" pushedimage="skins\option_hover.png" selectedimage="skins\option_hover.png" group="quickbar"/>
+				</HorizontalLayout>
+			</HorizontalLayout>
+			
+		</VerticalLayout>
+		
+		<HorizontalLayout>
+			<TabLayout name="main_option_switch">
+				  <HorizontalLayout>
+					<tab_flush />
+				  </HorizontalLayout>
+				  <HorizontalLayout>
+					<Text text="工具集合" pos="335, 180, 600, 300" relativepos="50,50,0,0"  float="true" font="4" />
+				  </HorizontalLayout>
+				  <HorizontalLayout>
+					<Text text="捐赠" pos="335, 180, 600, 300" relativepos="50,50,0,0"  float="true" font="4" />
+				  </HorizontalLayout>
+				  <HorizontalLayout>
+					<Text text="关于" pos="335, 180, 600, 300" relativepos="50,50,0,0"  float="true" font="4" />
+				  </HorizontalLayout>
+			</TabLayout>
+		</HorizontalLayout>
+		
+		<HorizontalLayout height="30" bkcolor="#EF6F6EBA">
+			<Text text="已连接NX531J" pos="10,8,100,24" float="true" textcolor="#FFFFFFFF" font="3"/>
+		</HorizontalLayout>
+	
+	</VerticalLayout>
+</Window>
