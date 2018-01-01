@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Window>
-
+	<VerticalLayout>
+		<VerticalLayout>
+		</VerticalLayout>
+		
+		<HorizontalLayout height="320">
+			<HorizontalLayout>
+			</HorizontalLayout>
+			
+			<HorizontalLayout width="640">
+				<Option height="300" width="300" normalimage="skins\wechat_money.png"/>
+				<Option padding="30,0,0,0" height="300" width="250" normalimage="skins\alipay_money.png"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+			</HorizontalLayout>
+		</HorizontalLayout>
+		
+		<VerticalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
 
 </Window>

@@ -1,4 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Window>
-
+	<VerticalLayout>
+		<HorizontalLayout>
+		
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+		</HorizontalLayout>
+		
+		<HorizontalLayout>
+		
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+		</HorizontalLayout>
+		
+		<HorizontalLayout>
+		
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<Button text="工具1" textcolor="#FFFFFFFF" padding="30,40,30,40" bordersize="1" bordercolor="#FFDA70D6" bkcolor="#FFFF4893"/>
+			</HorizontalLayout>
+			
+		</HorizontalLayout>
+	</VerticalLayout>
 </Window>

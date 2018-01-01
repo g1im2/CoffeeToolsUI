@@ -1,4 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Window>
+
+	<VerticalLayout>
+		
+		<!--设备信息group布局-->
+		<VerticalLayout height="130">
+			
+			<HorizontalLayout bordersize="1" height="40">
+				<Label text="设备信息" pos="30,15,100,40" float="true" font="10"/>
+				<Control height="1" pos="110,27,800,28" float="true" bordersize="1" bordercolor="#FF768D9B" />
+			</HorizontalLayout>
+			
+			<VerticalLayout>
+				<HorizontalLayout>
+					<HorizontalLayout bordersize="0" bordercolor="#FF768D9B">
+						<Button text="设备状态" textcolor="#FF2285C6" font="12" padding="40,10,10,10" height="25" width="100" normalimage="file='skins\list_bg.png' source='0,0,60,25'" hotimage="file='skins\list_bg.png' source='70,0,130,25'"/>
+						<Text text="已连接(系统模式)" font="11" padding="10,12,0,0"/>
+					</HorizontalLayout>
+					<HorizontalLayout bordersize="0" bordercolor="#FF768D9B">
+						<Button text="手机型号" textcolor="#FF2285C6" font="12" padding="10,10,10,10" height="25" width="100" normalimage="file='skins\list_bg.png' source='0,0,60,25'" hotimage="file='skins\list_bg.png' source='70,0,130,25'"/>
+						<Text text="Redmi Note2" font="11" padding="10,12,0,0"/>
+					</HorizontalLayout>
+					<HorizontalLayout bordersize="0" bordercolor="#FF768D9B">
+						<Button text="CPU类型" textcolor="#FF2285C6" font="12" padding="10,10,10,10" height="25" width="100" normalimage="file='skins\list_bg.png' source='0,0,60,25'" hotimage="file='skins\list_bg.png' source='70,0,130,25'"/>
+						<Text text="Arm64-v8a" font="11" padding="10,12,0,0"/>
+					</HorizontalLayout>				
+				</HorizontalLayout>
+				
+				<HorizontalLayout>
+					<HorizontalLayout bordersize="0" bordercolor="#FF768D9B">
+						<Button text="BL状态" textcolor="#FF2285C6" font="12" padding="40,10,10,10" height="25" width="100" normalimage="file='skins\list_bg.png' source='0,0,60,25'" hotimage="file='skins\list_bg.png' source='70,0,130,25'"/>
+						<Text text="未知" font="11" padding="10,12,0,0"/>
+					</HorizontalLayout>
+					<HorizontalLayout bordersize="0" bordercolor="#FF768D9B">
+						<Button text="Android版本" textcolor="#FF2285C6" font="12" padding="10,10,10,10" height="25" width="100" normalimage="file='skins\list_bg.png' source='0,0,60,25'" hotimage="file='skins\list_bg.png' source='70,0,130,25'"/>
+						<Text text="8.0" font="11" padding="10,12,0,0"/>
+					</HorizontalLayout>
+					<HorizontalLayout bordersize="0" bordercolor="#FF768D9B">
+						<Button text="Device代号" textcolor="#FF2285C6" font="12" padding="10,10,10,10" height="25" width="100" normalimage="file='skins\list_bg.png' source='0,0,60,25'" hotimage="file='skins\list_bg.png' source='70,0,130,25'"/>
+						<Text text="hermes" font="11" padding="10,12,0,0" />
+					</HorizontalLayout>
+				</HorizontalLayout>
+				
+			</VerticalLayout>
+			
+		</VerticalLayout>
+		
+		<!-- 刷机功能界面布局 -->
+		<VerticalLayout>
+		
+			<HorizontalLayout bordersize="1" height="40">
+				<Label text="刷入Recovery" pos="30,5,150,30" float="true" font="10"/>
+				<Control height="1" pos="150,20,800,21" float="true" bordersize="1" bordercolor="#FF768D9B" />
+			</HorizontalLayout>
+			
+			<HorizontalLayout height="120">
+				
+				<VerticalLayout>
+					<HorizontalLayout>
+						<Button text="选择品牌" textcolor="#FF2285C6" padding="40,10,10,10" width="70" font="12" normalimage="file='skins\list_bg.png' source='0,0,60,25'" hotimage="file='skins\list_bg.png' source='70,0,130,25'"/>
+						<Combo bordersize="1" bordercolor="#FF768D9B" name="ComboDemo1" itemalign="center" itemfont="11" padding="10,15,20,10" width="139" height="30" normalimage="file='skins/combo.png'" hotimage="file='skins/combo.png' " pushedimage="file='ComboBox/Combo_over.bmp' " >
+							<ListLabelElement text="张三" selected="true" />
+							<ListLabelElement text="李四" />
+						</Combo>
+						<Option text="解锁" font="11" padding="0,15,0,0" width="65" height="35" align="right" textcolor="#FFbac0c5" hottextcolor="#FF386382" selectedtextcolor="#FF386382" disabledtextcolor="#FFbac0c5"  selectedimage="file='skins/checked.png' dest='0,2,32,34'" normalimage="file='skins/unchecked.png' dest='0,2,32,34'"/>
+						<Label text="(注：部分老机型不需要解锁)" padding="5,15,0,10" textcolor="#FFDC143C" font="14" align="left"/>
+					</HorizontalLayout>
+					
+					<HorizontalLayout>
+						<Button text="选择镜像" textcolor="#FF2285C6" padding="40,10,10,10" width="70" font="12" normalimage="file='skins\list_bg.png' source='0,0,60,25'" hotimage="file='skins\list_bg.png' source='70,0,130,25'"/>
+						<Text bordersize="1" bordercolor="#FF768D9B" padding="10,15,10,15" />
+					</HorizontalLayout>
+				</VerticalLayout>
+				
+				<VerticalLayout width="200">
+					<Button text="开 始" padding="40,35,40,25" textcolor="#FFFFFFFF" font="13" height="42" width="100" borderround="5,5" bordersize="1" bordercolor="#FF7DB22D" normalimage="file='skins\green_btn.png' source='1,1,31,40'" hotimage="file='skins\green_btn.png' source='33,1,63,40'"/>
+				</VerticalLayout>
+				
+			</HorizontalLayout>
+			
+			<VerticalLayout>
+				<HorizontalLayout height="40">
+					<Label text="日志信息" pos="30,5,150,30" float="true" font="10"/>
+					<Control height="1" pos="110,20,800,21" float="true" bordersize="1" bordercolor="#FF768D9B" />
+				</HorizontalLayout>
+				<RichEdit name="testrichedit1" padding="40,0,40,20" bordersize="1" bordercolor="#FF768D9B" inset="4,2,4,2" font="12" multiline="true" rich="false" hscrollbar="true" autohscroll="true"/>
+			
+			</VerticalLayout>
+			
+			
+		</VerticalLayout>
+		
+	</VerticalLayout>
 	
 </Window>

@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Window>
+	
+	<VerticalLayout>
+		<VerticalLayout>
+		</VerticalLayout>
+	
+		<HorizontalLayout height="240">
+	
+			<VerticalLayout>
+			</VerticalLayout>
+		
+			<VerticalLayout width="520">
+				<Option padding="196,0,0,0" height="128" width="128" normalimage="file='skins\about_logo.png' source='0,0,128,128'" />
+				<Label padding="0,10,0,10" align="center" text="小白刷机专用工具" textcolor="#FF6E6E6E" font="41" />
+				<Label padding="0,0,0,10" align="center" text="版本号:3.0.0" textcolor="#FF848484" font="42" />
+			</VerticalLayout>
+			
+			<VerticalLayout>
+		</VerticalLayout>
+		
+		</HorizontalLayout>
+	
+		<VerticalLayout>
+		</VerticalLayout>
+	</VerticalLayout>
 
+	
+	
 </Window>
